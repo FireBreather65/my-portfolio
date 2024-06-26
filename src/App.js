@@ -2,9 +2,17 @@ import './App.css';
 
 function App() {
   return (
-    // all HTML code here!
     <div className="App">
-      <h1 className="App-header">Hello &lt;{2 + 1}</h1>
+      <img src="#" />
+      <h1>Malycia Ashley <span>(they/them)</span></h1>
+      <p>UI Designer | Proficient in Figma | Teamwork | Accessibility</p>
+      <div class="contact-nav">
+        <a id="resume-button">Resume</a>
+        <a class="contact-navbtn"></a>
+        <a class="contact-navbtn"></a>
+        <a class="contact-navbtn"></a>
+      </div>
+      
     </div>
   );
 }
