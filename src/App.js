@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="body">
       <img src="https://cloud-dr0rikspp-hack-club-bot.vercel.app/0untitled_design__1_.png" alt="Mountain at sunset in Olympia, Washington" />
-      <h1>Malycia Ashley <span id="pronouns">(they/them)</span></h1>
+      <h1 className="header-title-name">Malycia Ashley</h1>
       <p>UI Designer | Proficient in Figma | Teamwork | Accessibility</p>
       <div className="contact-nav">
         <a id="resume-button" href="https://docs.google.com/document/d/1XbUdY7ef-mh0TaYS7mJinEW-JWX-bpb2kg_1pnk-ObU/">Resume</a>

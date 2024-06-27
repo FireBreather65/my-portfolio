@@ -5,21 +5,23 @@
 img[src*="svg"] {
   width: 32px;
   height: 32px;
-  border: 2px solid orange;
+  border: 2px solid #0EA5E9;
   border-radius: 4px;
   margin-left: 32px;
   display: inline-block;
   vertical-align: middle;
 }
 
-#pronouns {
-  opacity: 50%;
+.header-title-name:after {
+  content: " (they/them)";
   font-size: 20px;
+  opacity: 40%;
+  display: inline;
   vertical-align: middle;
 }
 
 #resume-button {
-  background: orange;
+  background: #0EA5E9;
   padding: 8px;
   border-radius: 4px;
   text-decoration: none;
