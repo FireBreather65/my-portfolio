@@ -1,8 +1,5 @@
 import './App.css';
 
-// implement Tailwind! (responsivity is so much easier with sm, md, lg, etc.: https://tailwindcss.com/docs/responsive-design; however, do not use sm to target mobile!)
-// research how to scale images :)
-
 function App() {
   return (
     <div class="min-w-64 w-1/2 my-20 mx-auto text-center">
