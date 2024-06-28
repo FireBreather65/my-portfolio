@@ -1,6 +1,6 @@
 import './App.css';
 
-// make sure it's good enough for presentation (bare bones but still good, update selectors for images to be less/more specific!!!)
+// implement Tailwind! (responsivity is so much easier with sm, md, lg, etc.: https://tailwindcss.com/docs/responsive-design; however, do not use sm to target mobile!)
 
 function App() {
   return (
