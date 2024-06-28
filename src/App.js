@@ -10,10 +10,10 @@ function App() {
         <img src="https://cloud-pxmactc09-hack-club-bot.vercel.app/1bi_sun.svg" alt="Light mode icon" class="w-8 h-8 border-2 border-blue-400 border-solid rounded ml-4 inline-block align-middle" />*/}
       </div>
       <header>
-        <img src="https://cloud-dr0rikspp-hack-club-bot.vercel.app/0untitled_design__1_.png" alt="Mountain at sunset in Olympia, Washington" class="w-full" /> {/* <- good for now, figure out how to scale! */}
+        <img src="https://cloud-dr0rikspp-hack-club-bot.vercel.app/0untitled_design__1_.png" alt="Mountain at sunset in Olympia, Washington" class="w-full object-cover" />
       </header>
       <div className="header-content" class="my-8 text-center">
-        <img src="https://cloud-i5wn1rmma-hack-club-bot.vercel.app/0pxl_20240220_005648933.jpg" alt="Picture of me in front of trees" class="w-36 h-36 -mt-24 rounded-full border-4 border-white border-solid object-cover inline" /> {/* <- fix border, automatically resize to be half of pic, if possible; debate centering? */}
+        <img src="https://cloud-i5wn1rmma-hack-club-bot.vercel.app/0pxl_20240220_005648933.jpg" alt="Picture of me in front of trees" class="w-36 h-36 -mt-24 rounded-full border-4 border-white border-solid object-cover inline" /> {/* <- automatically resize to be half of pic, if possible */}
         <h1 class="text-3xl font-bold">Malycia Ashley <span class="text-xl opacity-40 inline align-middle">(they/them)</span></h1>
         <p>UI Designer | Proficient in Figma | Teamwork | Accessibility</p>
       </div>
