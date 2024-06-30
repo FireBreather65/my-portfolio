@@ -2,16 +2,14 @@
   - fix nav orientation (currently up to down)
   - automatically resize selfie to be half of pic (if possible)
   - CREATE MODAL (add bg, shadows, etc.)
+  - add section pages + content
+  - add functionality to buttons
+  - implement light/dark mode (future!)
   */}
 
 function App() {
   return (
     <div class="min-w-64 w-1/2 my-20 mx-auto text-center font-sans" style={{fontFamily: 'DM Sans'}}>
-      {/* ↓↓ future implementation ↓↓ */}
-      <div className="light-dark-mode">
-        {/*<img src="https://cloud-pxmactc09-hack-club-bot.vercel.app/0bi_moon.svg" alt="Dark mode icon" class="w-8 h-8 border-2 border-blue-400 border-solid rounded ml-4 inline-block align-middle" />
-        <img src="https://cloud-pxmactc09-hack-club-bot.vercel.app/1bi_sun.svg" alt="Light mode icon" class="w-8 h-8 border-2 border-blue-400 border-solid rounded ml-4 inline-block align-middle" />*/}
-      </div>
       <header>
         <img src="https://cloud-dr0rikspp-hack-club-bot.vercel.app/0untitled_design__1_.png" alt="Mountain at sunset in Olympia, Washington" class="w-full object-cover" />
       </header>
