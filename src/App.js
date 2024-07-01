@@ -1,8 +1,6 @@
 {/* Todos:
-  - realign text for nav
-  - automatically position selfie to be half of pic (if possible)
   - add section pages + content
-  - add functionality to buttons
+  - connect sections to buttons
   - make images less fuzzy XD
   - implement light/dark mode (future!)
   */}
@@ -24,30 +22,41 @@ function App() {
           <img src="https://cloud-o9etpd58m-hack-club-bot.vercel.app/2mdi_linkedin.svg" alt="LinkedIn icon" class="w-8 h-8 ml-4 inline-block align-middle" />
         </a>
         <a href="mailto:malyciaashley@gmail.com" target="_blank">
-          <img src="https://cloud-o9etpd58m-hack-club-bot.vercel.app/0material-symbols_mail-rounded.svg" alt="Mail icon" class="w-8 h-8 ml-4 inline-block align-middle" />
+          <img src="https://cloud-i6vrdd91r-hack-club-bot.vercel.app/0mdi_email.svg" alt="Mail icon" class="w-8 h-8 ml-4 inline-block align-middle" />
         </a>
         <a href="https://github.com/FireBreather65" target="_blank">
           <img src="https://cloud-o9etpd58m-hack-club-bot.vercel.app/1mdi_github.svg" alt="GitHub icon" class="w-8 h-8 ml-4 inline-block align-middle" />
         </a>
       </div>
-      <div className="section-nav" class="m-8">
-          <a href="https://firebreather65.github.io/hc-workshop-wonderland/" target="_blank" class="inline-block align-center mx-2 my-auto">
+      <div className="section-nav" class="m-8 flex flex-row justify-center">
+        <a href="#">
+          <div class="flex flex-col mx-2 items-center">
             <img src="https://cloud-i3mm96q23-hack-club-bot.vercel.app/0priscilla-du-preez-k8xygbw4ahg-unsplash__1_.jpg" alt="Two people holding coffee" class="w-16 h-16 rounded-full object-cover" />
             <p>About</p>
-          </a>
-          <a href="https://firebreather65.github.io/hc-workshop-wonderland/" target="_blank" class="inline-block align-center mx-2 my-auto">
+          </div>
+        </a>
+
+        <a href="#">
+          <div class="flex flex-col mx-2 items-center">
             <img src="https://cloud-i3mm96q23-hack-club-bot.vercel.app/1ian-dooley-dj7bwa-gwks-unsplash__1_.jpg" alt="Tech setup with laptop and coffee" class="w-16 h-16 rounded-full object-cover" />
             <p>Experience</p>
-          </a>
-        <a href="https://firebreather65.github.io/hc-workshop-wonderland/" target="_blank" class="inline-block align-center mx-2 my-auto">
-          <img src="https://cloud-i3mm96q23-hack-club-bot.vercel.app/3goran-ivos-ioykdikzlqw-unsplash__1_.jpg" alt="Laptop on an ottoman" class="w-16 h-16 rounded-full object-cover" />
-          <p>Projects</p>
+          </div>
         </a>
-        <a href="https://firebreather65.github.io/hc-workshop-wonderland/" target="_blank" class="inline-block align-center mx-2 my-auto">
-          <img src="https://cloud-i3mm96q23-hack-club-bot.vercel.app/2rirri-p_swqcxuc1k-unsplash__1_.jpg" alt="Polaroids in a scrapbook" class="w-16 h-16 rounded-full object-cover" />
-          <p>Scrapbook</p>
+
+        <a href="#">
+          <div class="flex flex-col mx-2 items-center">
+            <img src="https://cloud-i3mm96q23-hack-club-bot.vercel.app/3goran-ivos-ioykdikzlqw-unsplash__1_.jpg" alt="Laptop on an ottoman" class="w-16 h-16 rounded-full object-cover" />
+            <p>Projects</p>
+          </div>
         </a>
-    </div>
+
+        <a href="#">
+          <div class="flex flex-col mx-2 items-center">
+            <img src="https://cloud-i3mm96q23-hack-club-bot.vercel.app/2rirri-p_swqcxuc1k-unsplash__1_.jpg" alt="Polaroids in a scrapbook" class="w-16 h-16 rounded-full object-cover" />
+            <p>Scrapbook</p>
+          </div>
+        </a>
+      </div>
       <footer>
         <p>Made with ❤️ by Malycia Ashley</p>
       </footer>
