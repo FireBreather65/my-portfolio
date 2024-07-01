@@ -37,29 +37,29 @@ function App() {
       {/* NAV SECTION */}
       <div className="section-nav" class="m-8 flex flex-row justify-center">
         <a href="#">
-          <div class="flex flex-col m-2 items-center">
-            <img src="https://cloud-i3mm96q23-hack-club-bot.vercel.app/0priscilla-du-preez-k8xygbw4ahg-unsplash__1_.jpg" alt="Two people holding coffee" class="w-16 h-16 rounded-full object-cover" />
+          <div class="flex flex-col m-4 items-center">
+            <img src="https://cloud-i3mm96q23-hack-club-bot.vercel.app/0priscilla-du-preez-k8xygbw4ahg-unsplash__1_.jpg" alt="Two people holding coffee" class="w-16 h-16 rounded-full object-cover mb-1" />
             <p>About</p>
           </div>
         </a>
 
         <a href="#">
-          <div class="flex flex-col m-2 items-center">
-            <img src="https://cloud-i3mm96q23-hack-club-bot.vercel.app/1ian-dooley-dj7bwa-gwks-unsplash__1_.jpg" alt="Tech setup with laptop and coffee" class="w-16 h-16 rounded-full object-cover" />
+          <div class="flex flex-col m-4 items-center">
+            <img src="https://cloud-i3mm96q23-hack-club-bot.vercel.app/1ian-dooley-dj7bwa-gwks-unsplash__1_.jpg" alt="Tech setup with laptop and coffee" class="w-16 h-16 rounded-full object-cover mb-1" />
             <p>Experience</p>
           </div>
         </a>
 
         <a href="#">
-          <div class="flex flex-col m-2 items-center">
-            <img src="https://cloud-i3mm96q23-hack-club-bot.vercel.app/3goran-ivos-ioykdikzlqw-unsplash__1_.jpg" alt="Laptop on an ottoman" class="w-16 h-16 rounded-full object-cover" />
+          <div class="flex flex-col m-4 items-center">
+            <img src="https://cloud-i3mm96q23-hack-club-bot.vercel.app/3goran-ivos-ioykdikzlqw-unsplash__1_.jpg" alt="Laptop on an ottoman" class="w-16 h-16 rounded-full object-cover mb-1" />
             <p>Projects</p>
           </div>
         </a>
 
         <a href="#">
-          <div class="flex flex-col m-2 items-center">
-            <img src="https://cloud-i3mm96q23-hack-club-bot.vercel.app/2rirri-p_swqcxuc1k-unsplash__1_.jpg" alt="Polaroids in a scrapbook" class="w-16 h-16 rounded-full object-cover" />
+          <div class="flex flex-col m-4 items-center">
+            <img src="https://cloud-i3mm96q23-hack-club-bot.vercel.app/2rirri-p_swqcxuc1k-unsplash__1_.jpg" alt="Polaroids in a scrapbook" class="w-16 h-16 rounded-full object-cover mb-1" />
             <p>Scrapbook</p>
           </div>
         </a>
