@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Link, Routes } from 'react-router-dom';
 
-import Home from './components/Home';
 import About from './components/About';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
@@ -11,7 +10,6 @@ function App() {
   return (
     <main>
       <Routes>
-        <Route path='/home' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/experience' element={<Experience />} />
         <Route path='/projects' element={<Projects />} />
@@ -46,13 +44,6 @@ function App() {
 
       {/* NAV SECTION */}
       <div className="section-nav" class="m-8 flex flex-row justify-center">
-
-        <Link to="/home">
-          <div class="flex flex-col m-4 items-center">
-            <img src="https://cloud-aot9f4swe-hack-club-bot.vercel.app/0kam-idris-_hqhx3lbn18-unsplash.jpg" alt="Living room with yellow chair" class="w-16 h-16 rounded-full object-cover mb-1" />
-            <p>Home</p>
-          </div>
-        </Link>
       
         <Link to="/about">
           <div class="flex flex-col m-4 items-center">
