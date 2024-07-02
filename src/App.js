@@ -18,8 +18,8 @@ function App() {
         <Route path='/scrapbook' element={<Scrapbook />} />
       </Routes>
     
-    <div class="min-w-64 w-1/2 my-20 mx-auto text-center font-sans bg-orange-100 rounded shadow-lg pb-4" style={{fontFamily: 'DM Sans'}}>
-      <img src="https://cloud-dr0rikspp-hack-club-bot.vercel.app/0untitled_design__1_.png" alt="Mountain at sunset in Olympia, Washington" class="w-full object-cover rounded-t shadow-lg h-80" />
+    <div class="min-w-64 w-1/2 my-20 mx-auto text-center font-sans bg-orange-100 rounded-2xl shadow-lg pb-4" style={{fontFamily: 'DM Sans'}}>
+      <img src="https://cloud-dr0rikspp-hack-club-bot.vercel.app/0untitled_design__1_.png" alt="Mountain at sunset in Olympia, Washington" class="w-full object-cover rounded-t-2xl shadow-lg h-80" />
 
       {/* HEADER SECTION */}
       <div className="header-content" class="my-8 text-center">
@@ -49,7 +49,7 @@ function App() {
 
         <Link to="/home">
           <div class="flex flex-col m-4 items-center">
-            <img src="https://cloud-bdmzpka3i-hack-club-bot.vercel.app/0pexels-kamo11235-667838__1_.jpg" alt="Two people holding coffee" class="w-16 h-16 rounded-full object-cover mb-1" />
+            <img src="https://cloud-aot9f4swe-hack-club-bot.vercel.app/0kam-idris-_hqhx3lbn18-unsplash.jpg" alt="Living room with yellow chair" class="w-16 h-16 rounded-full object-cover mb-1" />
             <p>Home</p>
           </div>
         </Link>
