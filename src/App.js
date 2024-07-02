@@ -1,13 +1,23 @@
-{/* Todos:
-  - add section pages + content
-  - connect sections to buttons
-  - make images less fuzzy XD
-  - fix responsivity (test on mobile)
-  - implement light/dark mode (future!)
-*/}
+import React, { Component } from 'react';
+import { BrowserRouter, Route, Link, Routes } from 'react-router-dom';
+
+import Home from './components/Home';
+import About from './components/About';
+import Experience from './components/Experience';
+import Projects from './components/Projects';
+import Scrapbook from './components/Scrapbook';
 
 function App() {
   return (
+    <main>
+      <Routes>
+        <Route path='/home' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/experience' element={<Experience />} />
+        <Route path='/projects' element={<Projects />} />
+        <Route path='/scrapbook' element={<Scrapbook />} />
+      </Routes>
+    
     <div class="min-w-64 w-1/2 my-20 mx-auto text-center font-sans bg-orange-100 rounded shadow-lg pb-4" style={{fontFamily: 'DM Sans'}}>
       <img src="https://cloud-dr0rikspp-hack-club-bot.vercel.app/0untitled_design__1_.png" alt="Mountain at sunset in Olympia, Washington" class="w-full object-cover rounded-t shadow-lg h-80" />
 
@@ -36,33 +46,43 @@ function App() {
 
       {/* NAV SECTION */}
       <div className="section-nav" class="m-8 flex flex-row justify-center">
-        <a href="#">
+
+        <Link to="/home">
+          <div class="flex flex-col m-4 items-center">
+            <img src="https://cloud-bdmzpka3i-hack-club-bot.vercel.app/0pexels-kamo11235-667838__1_.jpg" alt="Two people holding coffee" class="w-16 h-16 rounded-full object-cover mb-1" />
+            <p>Home</p>
+          </div>
+        </Link>
+      
+        <Link to="/about">
           <div class="flex flex-col m-4 items-center">
             <img src="https://cloud-i3mm96q23-hack-club-bot.vercel.app/0priscilla-du-preez-k8xygbw4ahg-unsplash__1_.jpg" alt="Two people holding coffee" class="w-16 h-16 rounded-full object-cover mb-1" />
             <p>About</p>
           </div>
-        </a>
+        </Link>
 
-        <a href="#">
+        
+        <Link to="/experience">
           <div class="flex flex-col m-4 items-center">
             <img src="https://cloud-i3mm96q23-hack-club-bot.vercel.app/1ian-dooley-dj7bwa-gwks-unsplash__1_.jpg" alt="Tech setup with laptop and coffee" class="w-16 h-16 rounded-full object-cover mb-1" />
             <p>Experience</p>
           </div>
-        </a>
+        </Link>
 
-        <a href="#">
+        
+        <Link to="/projects">
           <div class="flex flex-col m-4 items-center">
             <img src="https://cloud-i3mm96q23-hack-club-bot.vercel.app/3goran-ivos-ioykdikzlqw-unsplash__1_.jpg" alt="Laptop on an ottoman" class="w-16 h-16 rounded-full object-cover mb-1" />
             <p>Projects</p>
           </div>
-        </a>
+        </Link>
 
-        <a href="#">
+        <Link to="/scrapbook">
           <div class="flex flex-col m-4 items-center">
             <img src="https://cloud-i3mm96q23-hack-club-bot.vercel.app/2rirri-p_swqcxuc1k-unsplash__1_.jpg" alt="Polaroids in a scrapbook" class="w-16 h-16 rounded-full object-cover mb-1" />
             <p>Scrapbook</p>
           </div>
-        </a>
+        </Link>
       </div>
 
       {/* FOOTER SECTION */}
@@ -70,6 +90,7 @@ function App() {
         <p>Made with ❤️ by Malycia Ashley</p>
       </footer>
    </div>
+</main>
   );
 }
 
