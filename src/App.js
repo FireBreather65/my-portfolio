@@ -6,6 +6,13 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Scrapbook from "./components/Scrapbook";
 
+const goToTop = () => {
+  window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+  });
+};
+
 function App() {
   return (
     <main>
@@ -83,7 +90,7 @@ function App() {
         {/* NAV SECTION */}
         <div className="section-nav" class="m-8 flex flex-row justify-center">
           <Link to="/about">
-            <div class="flex flex-col m-4 items-center">
+            <div class="flex flex-col m-4 items-center" onClick={goToTop}>
               <img
                 src="https://cloud-i3mm96q23-hack-club-bot.vercel.app/0priscilla-du-preez-k8xygbw4ahg-unsplash__1_.jpg"
                 alt="Two people holding coffee"
@@ -94,7 +101,7 @@ function App() {
           </Link>
 
           <Link to="/experience">
-            <div class="flex flex-col m-4 items-center">
+            <div class="flex flex-col m-4 items-center" onClick={goToTop}>
               <img
                 src="https://cloud-i3mm96q23-hack-club-bot.vercel.app/1ian-dooley-dj7bwa-gwks-unsplash__1_.jpg"
                 alt="Tech setup with laptop and coffee"
@@ -105,7 +112,7 @@ function App() {
           </Link>
 
           <Link to="/projects">
-            <div class="flex flex-col m-4 items-center">
+            <div class="flex flex-col m-4 items-center" onClick={goToTop}>
               <img
                 src="https://cloud-i3mm96q23-hack-club-bot.vercel.app/3goran-ivos-ioykdikzlqw-unsplash__1_.jpg"
                 alt="Laptop on an ottoman"
@@ -116,7 +123,7 @@ function App() {
           </Link>
 
           <Link to="/scrapbook">
-            <div class="flex flex-col m-4 items-center">
+            <div class="flex flex-col m-4 items-center" onClick={goToTop}>
               <img
                 src="https://cloud-i3mm96q23-hack-club-bot.vercel.app/2rirri-p_swqcxuc1k-unsplash__1_.jpg"
                 alt="Polaroids in a scrapbook"
