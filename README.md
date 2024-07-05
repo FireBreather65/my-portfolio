@@ -5,7 +5,7 @@ https://github.com/FireBreather65/my-portfolio/assets/76709163/00fbc8fe-576f-4b1
 **[You can find the live website here.](https://firebreather65-portfolio.vercel.app/)**
 
 ## Inspiration
-This portfolio was on my todo list for months, but during 10 Days of Code (a [Hack Club](https://hackclub.com/)-run coding camp) I started and finished my project!
+This portfolio was on my todo list for months, but during 10 Days of Code (a [Hack Club](https://hackclub.com/)-run coding camp) I was able to start and finish my project!
 
 ## Features
 There aren't many features, feel free to click around to learn more about me.
