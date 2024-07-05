@@ -22,7 +22,7 @@ function App() {
       </Routes>
 
       <div
-        class="min-w-64 w-1/2 my-20 mx-auto text-center font-sans bg-orange-100 rounded-2xl shadow-lg pb-4"
+        class="min-w-64 my-20 mx-auto text-center font-sans bg-orange-100 rounded-2xl shadow-lg pb-4 sm:w-3/4 xl:w-1/2"
         style={{ fontFamily: "DM Sans" }}
       >
         <img
@@ -86,7 +86,7 @@ function App() {
         </div>
 
         {/* NAV SECTION */}
-        <div className="section-nav" class="m-8 flex flex-row justify-center">
+        <div className="section-nav" class="m-8 flex flex-row justify-center flex-wrap">
           <Link to="/about">
             <div class="flex flex-col m-4 items-center" onClick={goToTop}>
               <img

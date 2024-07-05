@@ -5,7 +5,7 @@ function About() {
   return (
     <main>
       <div
-        class="min-w-64 my-20 mx-auto text-center font-sans bg-orange-100 rounded-2xl shadow-lg p-8 w-1/2"
+        class="min-w-64 my-20 mx-auto text-center font-sans bg-orange-100 rounded-2xl shadow-lg p-8 sm:w-3/4 xl:w-1/2"
         style={{ fontFamily: "DM Sans" }}
       >
         <h1 class="text-3xl font-bold p-4">About</h1>
@@ -22,14 +22,13 @@ function About() {
           <br />
           <br />I also have some side projects! With the support of Hack Club, I
           help organize hackathons across the US for girls and gender-diverse
-          students to be introduced to tech. You can learn more about us here:{" "}
-          <a
+          students to be introduced to tech. You can <a
             href="https://daysofservice.hackclub.com/"
             target="_blank"
-            class="underline text-blue-600"
+            class="underline text-blue-600 justify-center"
           >
-            https://daysofservice.hackclub.com/
-          </a>
+            learn more about us here
+          </a>.
           <br />
           <br />
           If you are interested in hiring me for any design opportunities, I'd
