@@ -8,7 +8,7 @@ https://github.com/FireBreather65/my-portfolio/assets/76709163/00fbc8fe-576f-4b1
 This portfolio was on my todo list for months, but during 10 Days of Code (a [Hack Club](https://hackclub.com/)-run coding camp) I was able to start and finish my project!
 
 ## Features
-There aren't many features, feel free to click around to learn more about me.
+This is a fully responsive website! There aren't many other features, just feel free to click around to learn more about me 🙂
 
 ## Technologies
 This website was built with HTML, Tailwind, and React. This was my first time working React and Tailwind, and they were really fun to learn and use.
