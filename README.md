@@ -11,7 +11,7 @@ This portfolio was on my todo list for months, but during 10 Days of Code (a [Ha
 This is a fully responsive website! There aren't many other features, just feel free to click around to learn more about me 🙂
 
 ## Technologies
-This website was built with HTML, Tailwind, and React. This was my first time working React and Tailwind, and they were really fun to learn and use.
+This website was built with Tailwind and React. This was my first time working with both, and they were really fun to learn and use.
 
 ## Challenges and accomplishments
 I faced a lot of issues with React, most notably when learning to route my pages. However, I worked with a mentor to solve them :)
