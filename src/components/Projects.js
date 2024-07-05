@@ -9,12 +9,7 @@ function Projects() {
         style={{ fontFamily: "DM Sans" }}
       >
         <h1 class="text-3xl font-bold">Projects</h1>
-
-
-        {/* IDEAS:
-            - link to all gh repos at the bottom? */}
-
-
+        
         {/* FIRST PROJECT */}
         <div class="text-left w-1/2 mx-auto p-8 m-8 rounded-2xl bg-orange-50">
           <h2 class="text-xl font-extrabold">Teachable Machine</h2>

@@ -4,7 +4,6 @@ import { BrowserRouter, Route, Link, Routes } from "react-router-dom";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
-import Scrapbook from "./components/Scrapbook";
 
 const goToTop = () => {
   window.scrollTo({
@@ -20,7 +19,6 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/scrapbook" element={<Scrapbook />} />
       </Routes>
 
       <div
@@ -119,17 +117,6 @@ function App() {
                 class="w-16 h-16 rounded-full object-cover mb-1"
               />
               <p>Projects</p>
-            </div>
-          </Link>
-
-          <Link to="/scrapbook">
-            <div class="flex flex-col m-4 items-center" onClick={goToTop}>
-              <img
-                src="https://cloud-i3mm96q23-hack-club-bot.vercel.app/2rirri-p_swqcxuc1k-unsplash__1_.jpg"
-                alt="Polaroids in a scrapbook"
-                class="w-16 h-16 rounded-full object-cover mb-1"
-              />
-              <p>Scrapbook</p>
             </div>
           </Link>
         </div>
