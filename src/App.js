@@ -22,7 +22,7 @@ function App() {
       </Routes>
 
       <div
-        class="min-w-64 my-20 mx-auto text-center font-sans bg-orange-100 rounded-2xl shadow-lg pb-4 sm:w-3/4 xl:w-1/2"
+        class="min-w-80 my-20 mx-auto text-center font-sans bg-orange-100 rounded-2xl shadow-lg pb-4 w-1/2"
         style={{ fontFamily: "DM Sans" }}
       >
         <img
@@ -38,7 +38,7 @@ function App() {
             alt="Picture of me in front of trees"
             class="w-36 h-36 -mt-24 rounded-full border-4 border-orange-100 border-solid object-cover inline"
           />
-          <h1 class="text-3xl font-bold">
+          <h1 class="text-3xl font-bold mx-4">
             Malycia Ashley{" "}
             <span class="text-xl opacity-40 inline align-middle">
               (they/them)

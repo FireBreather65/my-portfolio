@@ -5,13 +5,13 @@ function Projects() {
   return (
     <main>
       <div
-        class="min-w-64 my-20 mx-auto text-center font-sans bg-orange-100 rounded-2xl shadow-lg p-8 sm:w-3/4 xl:w-1/2"
+        class="min-w-80 my-20 mx-auto text-center font-sans bg-orange-100 rounded-2xl shadow-lg p-8 w-1/2"
         style={{ fontFamily: "DM Sans" }}
       >
         <h1 class="text-3xl font-bold">Projects</h1>
         
         {/* FIRST PROJECT */}
-        <div class="text-left w-1/2 mx-auto p-8 m-8 rounded-2xl bg-orange-50">
+        <div class="text-left sm:w-3/4 lg:w-1/2 mx-auto p-8 m-8 rounded-2xl bg-orange-50">
           <h2 class="text-xl font-extrabold">Teachable Machine</h2>
           <img src="https://cloud-p3yij1ns1-hack-club-bot.vercel.app/0screenshot_2024-07-03_121346.png" alt="Teachable Machine front page" class="my-4" />
           <p>This was my submission for Hack Club's <a href="https://workshops.hackclub.com/teachable_machine/" target="_blank">Teachable Machine workshop</a>! I wanted to try something new, and thought that this would be a great way to try a new project and learn some more about machine learning.</p>
@@ -34,7 +34,7 @@ function Projects() {
         </div>
 
         {/* SECOND PROJECT */}
-        <div class="text-left w-1/2 mx-auto p-8 m-8 rounded-2xl bg-orange-50">
+        <div class="text-left sm:w-3/4 lg:w-1/2 mx-auto p-8 m-8 rounded-2xl bg-orange-50">
           <h2 class="text-xl font-extrabold">Wizard Orpheus</h2>
           <img src="https://cloud-p3yij1ns1-hack-club-bot.vercel.app/1screenshot_2024-07-03_121402.png" alt="Wizard Orpheus front page" class="my-4" />
           <p>This project was originally created at a workshop during <a href="https://wonderland.hackclub.com/" target="_blank">Wonderland</a>, a 48-hour hackathon hosted in Boston. I decided to continue working on it after the workshop to improve the design and functionality, and this is the result &#x1F601;</p>
@@ -60,7 +60,7 @@ function Projects() {
         </div>
 
         {/* THIRD PROJECT */}
-        <div class="text-left w-1/2 mx-auto p-8 m-8 rounded-2xl bg-orange-50">
+        <div class="text-left sm:w-3/4 lg:w-1/2 mx-auto p-8 m-8 rounded-2xl bg-orange-50">
           <h2 class="text-xl font-extrabold">Personal Portfolio</h2>
           <p>I'm also very proud of this website &#x1F60A;</p>
           <br />

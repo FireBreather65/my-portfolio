@@ -5,13 +5,13 @@ function Experience() {
   return (
     <main>
       <div
-        class="min-w-64 my-20 mx-auto text-center font-sans bg-orange-100 rounded-2xl shadow-lg p-8 sm:w-3/4 xl:w-1/2"
+        class="min-w-80 my-20 mx-auto text-center font-sans bg-orange-100 rounded-2xl shadow-lg p-8 w-1/2"
         style={{ fontFamily: "DM Sans" }}
       >
         <h1 class="text-3xl font-bold">Experience</h1>
 
         {/* FIRST JOB */}
-        <div class="text-left w-1/2 mx-auto p-8 m-8 rounded-2xl bg-orange-50">
+        <div class="text-left sm:w-3/4 lg:w-1/2 mx-auto p-8 m-8 rounded-2xl bg-orange-50">
           <h2 class="text-xl font-extrabold">Web Developer</h2>
           <h3 class="text-lg font-semibold">Sweet Comforts Bakery</h3>
           <p>
@@ -48,7 +48,7 @@ function Experience() {
         </div>
 
         {/* SECOND JOB*/}
-        <div class="text-left w-1/2 mx-auto p-8 m-8 rounded-2xl bg-orange-50">
+        <div class="text-left sm:w-3/4 lg:w-1/2 mx-auto p-8 m-8 rounded-2xl bg-orange-50">
           <h2 class="text-xl font-extrabold">Days of Service Organizer</h2>
           <h3 class="text-lg font-semibold">Hack Club</h3>
           <p>
@@ -91,7 +91,7 @@ function Experience() {
         </div>
 
         {/* THIRD JOB*/}
-        <div class="text-left w-1/2 mx-auto p-8 m-8 rounded-2xl bg-orange-50">
+        <div class="text-left sm:w-3/4 lg:w-1/2 mx-auto p-8 m-8 rounded-2xl bg-orange-50">
           <h2 class="text-xl font-extrabold">Summer Intern</h2>
           <h3 class="text-lg font-semibold">Hack Club</h3>
           <p>
