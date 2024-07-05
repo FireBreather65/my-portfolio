@@ -1,6 +1,6 @@
 # Personal Portfolio 🧑🏾
 
-[VIDEO]
+https://github.com/FireBreather65/my-portfolio/assets/76709163/00fbc8fe-576f-4b12-ba1e-7bffc29c91ce
 
 **[You can find the live website here.](https://firebreather65-portfolio.vercel.app/)**
 
