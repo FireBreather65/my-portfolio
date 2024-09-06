@@ -108,15 +108,6 @@ function Experience() {
             <br />
             <br />
           </p>
-
-          
-          <p>
-            Worked on various projects for the org, including contacting and
-            meeting with local government officials and other influential
-            people.
-            <br />
-            <br />
-          </p>
           {/* SKILLS */}
           <div>
             <p class="rounded border border-purple-400 border-solid p-1 bg-pink-200 inline-block flex-wrap mr-2 mb-2">
