@@ -95,6 +95,22 @@ function Experience() {
           <h2 class="text-xl font-extrabold">Summer Intern</h2>
           <h3 class="text-lg font-semibold">Hack Club</h3>
           <p>
+            Worked on various projects for the org, with the goal of getting more girls and gender-diverse students into tech!
+            <br />
+            <br />
+            &#x1F4F0; Developed and sent out a newsletter geared towards these groups
+            <br />
+            &#x1FAF6; Developed a plan for a tech summit to meet, connect, and create with their peers
+            <br />
+            &#x1F3A4; Organized an AMA with Trina Spear, FIGS co-founder and co-CEO
+            <br />
+            &#x1F496; Engaged with the Slack community to support other girls and gender-diverse students in tech
+            <br />
+            <br />
+          </p>
+
+          
+          <p>
             Worked on various projects for the org, including contacting and
             meeting with local government officials and other influential
             people.
@@ -104,7 +120,19 @@ function Experience() {
           {/* SKILLS */}
           <div>
             <p class="rounded border border-purple-400 border-solid p-1 bg-pink-200 inline-block flex-wrap mr-2 mb-2">
+              Figma (software)
+            </p>
+            <p class="rounded border border-purple-400 border-solid p-1 bg-pink-200 inline-block flex-wrap mr-2 mb-2">
               Communication
+            </p>
+            <p class="rounded border border-purple-400 border-solid p-1 bg-pink-200 inline-block flex-wrap mr-2 mb-2">
+              Teamwork
+            </p>
+            <p class="rounded border border-purple-400 border-solid p-1 bg-pink-200 inline-block flex-wrap mr-2 mb-2">
+              Project Management
+            </p>
+            <p class="rounded border border-purple-400 border-solid p-1 bg-pink-200 inline-block flex-wrap mr-2 mb-2">
+              Event Planning
             </p>
           </div>
         </div>
