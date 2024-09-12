@@ -102,9 +102,10 @@ function Experience() {
             <br />
             &#x1FAF6; Developed a plan for a tech summit to meet, connect, and create with their peers
             <br />
-            &#x1F3A4; Organized an AMA with Trina Spear, FIGS co-founder and co-CEO
-            <br />
             &#x1F496; Engaged with the Slack community to support other girls and gender-diverse students in tech
+            <br />
+            <br />
+            I also attended a two-week immersion program to focus on learning more about web development, which resulted in the creation of my personal website :)
             <br />
             <br />
           </p>
