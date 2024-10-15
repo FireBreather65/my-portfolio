@@ -26,8 +26,8 @@ function App() {
         style={{ fontFamily: "DM Sans" }}
       >
         <img
-          src="https://cloud-dr0rikspp-hack-club-bot.vercel.app/0untitled_design__1_.png"
-          alt="Mountain at sunset in Olympia, Washington"
+          src="./components/flower_in_the_pond.jpg"
+          alt="Flower in a pond"
           class="w-full object-cover rounded-t-2xl shadow-lg h-80"
         />
 
