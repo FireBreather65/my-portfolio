@@ -26,7 +26,7 @@ function App() {
         style={{ fontFamily: "DM Sans" }}
       >
         <img
-          src="flower_in_the_pond.jpg"
+          src="./src/components/flower_in_the_pond.jpg"
           alt="Flower in a pond"
           class="w-full object-cover rounded-t-2xl shadow-lg h-80"
         />
