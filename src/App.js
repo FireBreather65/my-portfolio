@@ -26,11 +26,11 @@ function App() {
         style={{ fontFamily: "DM Sans" }}
       >
         <img
-          src="https://cloud-dr0rikspp-hack-club-bot.vercel.app/0untitled_design__1_.png"
-          alt="Mountain at sunset in Olympia, Washington"
+          src="https://i.ibb.co/K0rY52g/flower-in-the-pond.jpg"
+          alt="Lotus flower in a pond"
           class="w-full object-cover rounded-t-2xl shadow-lg h-80"
         />
-
+            
         {/* HEADER SECTION */}
         <div className="header-content" class="my-6 text-center">
           <img
