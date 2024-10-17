@@ -20,4 +20,4 @@ I faced a lot of issues with React, most notably when learning to route my pages
 I learned a lot about React and Tailwind during this project! I really enjoyed working with Tailwind as it's a much better way to use CSS.
 
 ## Future plans
-I have a lot of ideas for future implementations, such as adding a small decorative background like [this website](https://daysofservice.hackclub.com/code), incorporating [my Scrapbook posts](https://scrapbook.hackclub.com/Malycia) and adding light/dark mode.
+I have a lot of ideas for future implementations, such as adding a small decorative background like [this website](https://daysofservice.hackclub.com/code), incorporating a section for my photography, and adding light/dark mode.
