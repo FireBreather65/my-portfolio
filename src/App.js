@@ -40,7 +40,7 @@ function App() {
           />
           <h1 class="text-3xl font-bold mx-4">
             Malycia Ashley{" "}
-            <span class="text-xl opacity-40 inline align-middle">
+            <span class="text-xl opacity-60 inline align-middle">
               (they/them)
             </span>
           </h1>
