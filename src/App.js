@@ -45,7 +45,7 @@ function App() {
             </span>
           </h1>
           <p class="m-auto w-2/5">
-            UI Designer | Proficient in Figma | Teamwork | Accessibility
+            UX Designer | Proficient in Figma | Teamwork | Accessibility
           </p>
           <div className="contact-nav" class="my-2">
             <a
