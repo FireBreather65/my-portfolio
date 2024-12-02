@@ -13,7 +13,7 @@ function About() {
         I am a detail-oriented and analytical professional who excels in identifying and rectifying UX mistakes, conducting thorough competitive audits, and implementing effective solutions with my team. My self-motivation and hard work have been shown by homeschooling myself to graduate high school at 16, developing my personal website after learning React basics over the course of a week, and creating a tailored roadmap to learn UX and secure a job within 6 months.
         <br />
         <br />
-        Some core values that drive my work are loyalty, compassion, and strong belief in diversity. My unwavering commitment to deadlines, meetings, and clients highlights my reliability, while my history of tutoring underserved children and hosting gender-focused hackathons reflect my empathetic approach to user research and commitment to equitable participation.
+        Some core values that drive my work are loyalty, compassion, and strong belief in DEI. My unwavering commitment to deadlines, meetings, and clients highlights my reliability, while my history of tutoring underserved children and hosting gender-focused hackathons reflect my empathetic approach to user research and focus on equitable inclusion.
         </p>
       </div>
     </main>
