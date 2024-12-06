@@ -10,10 +10,10 @@ function About() {
       >
         <h1 class="text-3xl font-bold p-4">About</h1>
         <p class="w-1/2 mx-auto pb-4">
-        I am a detail-oriented and analytical professional who excels in identifying and rectifying UX mistakes, conducting thorough competitive audits, and implementing effective solutions with my team. My self-motivation and hard work have been shown by homeschooling myself to graduate high school at 16, developing my personal website after learning React basics over the course of a week, and creating a tailored roadmap to learn UX and secure a job within 6 months.
+        Ever since I was a kid, I knew I wanted a job in a creative field. Through the years I tried dabbling in writing, beading, origami, even piano - but when I graduated high school at 16 and discovered the field of UX design, I knew I had found my calling. I fell in love with designing interfaces and the ability to use my natural creativity to positively impact users and the world.
         <br />
         <br />
-        Some core values that drive my work are loyalty, compassion, and strong belief in DEI. My unwavering commitment to deadlines, meetings, and clients highlights my reliability, while my history of tutoring underserved children and hosting gender-focused hackathons reflect my empathetic approach to user research and focus on equitable inclusion.
+        My past jobs have taught me the importance of collaboration, communication, and attention to detail - all crucial skills in my journey into UX. I’m also committed to equity-focused design, as I've learned that hearing from diverse perspectives can positively impact the experience for all users.
         </p>
       </div>
     </main>
