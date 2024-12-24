@@ -45,7 +45,7 @@ function App() {
             </span>
           </h1>
           <p class="m-auto w-2/5">
-            UX Designer | Figma Expert | Team Collaborator | DEI Advocate | Accessibility Champion
+            UX Designer | Collaborative Leader | DEI Advocate | Figma Enthusiast | Growth Mindset
           </p>
           <div className="contact-nav" class="my-2">
             <a
