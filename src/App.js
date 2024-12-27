@@ -26,8 +26,8 @@ function App() {
         style={{ fontFamily: "DM Sans" }}
       >
         <img
-          src="https://i.ibb.co/K0rY52g/flower-in-the-pond.jpg"
-          alt="Lotus flower in a pond"
+          src="https://i.ibb.co/MpFmZD2/malycia-ashley-ao-U59-Dv-Jpuo-unsplash-1.jpg"
+          alt="White flower bush"
           class="w-full object-cover rounded-t-2xl shadow-lg h-80"
         />
             
